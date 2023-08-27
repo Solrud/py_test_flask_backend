@@ -1,0 +1,107 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:16:11] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:\u0423\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c:\u041c\u0430\u0442\u0432\u0435\u0439 \u0418\u043b\u044c\u0438\u043d
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:16:11] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:16:25] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:\u0423\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c:\u0418\u0433\u043e\u0440\u044c \u041a\u0440\u0443\u0442\u043e\u0439
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:16:26] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:16:52] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:16:53] "[31m[1mPOST /api/search-user HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:37:20] "OPTIONS /api/search-user HTTP/1.1" 200 -
+WARNING:main:\u0418\u043c\u044f \u0438\u043b\u0438 \u0444\u0430\u043c\u0438\u043b\u0438\u044f \u043d\u0435 \u0437\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u044b
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:37:20] "[31m[1mPOST /api/search-user HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:38:15] "OPTIONS /api/search-user HTTP/1.1" 200 -
+WARNING:main:NOT FOUND
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:38:15] "[31m[1mPOST /api/search-user HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:39:51] "OPTIONS /api/search-user HTTP/1.1" 200 -
+WARNING:main:WARNING some field is empty
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:39:52] "[31m[1mPOST /api/search-user HTTP/1.1[0m" 400 -
+ERROR:main:NOT FOUND user
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:39:56] "[33mPOST /api/search-user HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:40:10] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:SUCCES finfing user:\u0418\u0433\u043e\u0440\u044c \u041a\u0440\u0443\u0442\u043e\u0439
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:40:10] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:42:57] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:SUCCES finfing user:Игорь Крутой
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:42:57] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:46:04] "OPTIONS /api/search-user HTTP/1.1" 200 -
+WARNING:main:__WARNING --> some field is empty [checkFIELDS]==>> NAME: AND LAST_NAME
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:46:04] "[31m[1mPOST /api/search-user HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:46:10] "OPTIONS /api/search-user HTTP/1.1" 200 -
+WARNING:main:__WARNING --> some field is empty [checkFIELDS]==>> NAME:АУУУУУУУУ AND LAST_NAME
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:46:10] "[31m[1mPOST /api/search-user HTTP/1.1[0m" 400 -
+ERROR:main:__NOT FOUND --> user
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:46:13] "[33mPOST /api/search-user HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:46:25] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:__SUCCESS --> finding user:Матвей Ильин
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:46:25] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:48:19] "OPTIONS /api/search-user HTTP/1.1" 200 -
+WARNING:main:__WARNING --> some field is empty [checkFIELDS]==>> NAME: [Матвей] AND LAST_NAME: []
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:48:19] "[31m[1mPOST /api/search-user HTTP/1.1[0m" 400 -
+ERROR:main:__NOT FOUND --> user [CHECK_USER] ==>> NAME: [Матвей] AND LAST_NAME: [DGFHFGRJ]
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 18:48:21] "[33mPOST /api/search-user HTTP/1.1[0m" 404 -
+INFO:w erkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:15:32] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:(Fore.GREEN)(Back.WHITE)__SUCCESS --> finding user:(Style.RESET_ALL)Матвей Ильин
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:15:32] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:18:36] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:[32m[47m__SUCCESS --> finding user:[0mМатвей Ильин
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:18:36] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:19:31] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:[32m[47m__SUCCESS --> finding user:[0mИгорь Крутой
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:19:31] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:20:09] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:[32m[47m__SUCCESS --> finding user:[0mИгорь Крутой
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:20:09] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:23:47] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:[32m[47m__SUCCESS --> finding user:[0mИгорь Крутой
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:23:47] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:36:37] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:[32m[47m__SUCCESS --> finding user:[0mМатвей Ильин
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:36:37] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:37:15] "OPTIONS /api/search-user HTTP/1.1" 200 -
+INFO:main:[32m[47m__SUCCESS --> finding user:[0mМатвей Ильин
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2023 00:37:15] "POST /api/search-user HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
